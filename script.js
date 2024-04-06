@@ -1,17 +1,3 @@
-var members =["pankaj", "sonu", "ritu"];
-
-var ul = document.createElement("ul");
-
-// for(let member of members){
-//     console.log(member)
-//     const li=document.createElement("li");
-//     li.innerText=member;
-//     ul.appendChild("li");
-// console.log(ul);
-// }
-for(let i=0; i.length > 1; i++)
-document.body.appendChild("ul");
-
 
       /*slider image js Start*/ 
 const imgs = document.querySelectorAll('.header-slider ul img');
@@ -52,7 +38,7 @@ next_btn.addEventListener('click',(e)=>{
 /* SLider image scroll End*/
 
 /* Product Scroll Wheel Start */
-const scrollContainer=document.querySelectorAll('products');
+const scrollContainer=document.querySelectorAll('.products');
 for(const item of scrollContainer){
     item.addEventListener('wheel',(e)=>{
         e.preventDefault();
